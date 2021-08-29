@@ -99,16 +99,16 @@ const Home = () => {
     const handleTipChange = (e) => {
         console.log(e.target._nativeTag);
 
-        if(e.target._nativeTag == 23 || e.target._nativeTag == 25){
+        if(e.target._nativeTag == 2805 || e.target._nativeTag == 2807){
             setTip(15)
         }
-        else if(e.target._nativeTag == 29 || e.target._nativeTag == 33){
+        else if(e.target._nativeTag == 2813 || e.target._nativeTag == 2815){
             setTip(18)
         }
-        else if(e.target._nativeTag == 37 || e.target._nativeTag == 39){
+        else if(e.target._nativeTag == 2819 || e.target._nativeTag == 2823){
             setTip(20)
         }
-        else if(e.target._nativeTag == 45 || e.target._nativeTag == 47){
+        else if(e.target._nativeTag == 2827 || e.target._nativeTag == 2829){
             setTip(25)
         }
     };
