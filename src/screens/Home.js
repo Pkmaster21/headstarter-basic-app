@@ -3,7 +3,7 @@ import {StyleSheet, TouchableWithoutFeedback, Modal, Text, TouchableOpacity, Vie
 
 import Input from "../components/Input"
 import SplitOutput from "../containers/SplitOutput";
-import TipRow from "../components/TipRow"
+import TipRow from "../containers/TipRow"
 
 const styles = StyleSheet.create({
    container: {
@@ -97,8 +97,12 @@ const Home = () => {
     };
 
     const handleTipChange = (e) => {
-        console.log(e.target._nativeTag);
+        console.log(e);
+    };
 
+    const onPress = () => {
+
+<<<<<<< HEAD
         if(e.target._nativeTag == 2805 || e.target._nativeTag == 2807){
             setTip(15)
         }
@@ -111,6 +115,8 @@ const Home = () => {
         else if(e.target._nativeTag == 2827 || e.target._nativeTag == 2829){
             setTip(25)
         }
+=======
+>>>>>>> david
     };
 
     const handleCustomTipChange = (value) => {
