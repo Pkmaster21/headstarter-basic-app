@@ -102,21 +102,6 @@ const Home = () => {
 
     const onPress = () => {
 
-<<<<<<< HEAD
-        if(e.target._nativeTag == 2805 || e.target._nativeTag == 2807){
-            setTip(15)
-        }
-        else if(e.target._nativeTag == 2813 || e.target._nativeTag == 2815){
-            setTip(18)
-        }
-        else if(e.target._nativeTag == 2819 || e.target._nativeTag == 2823){
-            setTip(20)
-        }
-        else if(e.target._nativeTag == 2827 || e.target._nativeTag == 2829){
-            setTip(25)
-        }
-=======
->>>>>>> david
     };
 
     const handleCustomTipChange = (value) => {
