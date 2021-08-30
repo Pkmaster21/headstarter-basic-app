@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   tipContainer: {
       flexDirection: "row",
-      flexWrap: "wrap",
+      //flexWrap: "wrap",
       justifyContent: "space-between",
   },
   titleText:  {
@@ -120,6 +120,7 @@ const Home = () => {
         }
         else
         {
+            
             setBill(value);
         }
     };
@@ -163,7 +164,7 @@ const Home = () => {
                 <Input
                     label='Bill Total'
                     amount={bill}
-                    placeholderText='0.00'
+                    placeholderText='Enter Bill Amount'
                     handleTextChange={handleBillChange}
                 />
                 <View style={styles.section}>

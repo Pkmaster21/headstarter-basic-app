@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         borderRadius: 10,
         paddingVertical: 10,
-        paddingHorizontal: 20,
+        paddingHorizontal: 10,
     },
 
 });
